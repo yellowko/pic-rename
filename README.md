@@ -25,10 +25,23 @@
 2. 填好表情包对应文件夹路径
 3. 填好API调用频率
 
+![配置填写位置](pic/config.png)
+
 ## 使用方法
-将run.bat和pic_rrename.py放在同一个目录，双击run.bat运行。
+
+![运行前文件夹内状态](pic/before.png)
+
+将run.bat和pic_rename.py放在同一个目录，双击run.bat运行。
+
+![运行时状态](pic/running.png)
 
 程序执行完成后会创建named.res、unsupport.res、unnamed.res、failed.res 4个文件夹，分别放置完成重命名、不支持的文件格式、未识别出文字的文件、识别失败的文件。下次有新的表情包，放回到原来的位置并重新运行程序，即可将新的表情包归类。
+
+![运行完成状态](pic/after1.png)
+
+![被重命名的文件](pic/after2.png)
+
+
 
 ## TODO
 + 未重命名的图片使用图片描述（Azure目前图片描述仅支持英文）
